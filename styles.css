@@ -23,7 +23,15 @@ aside {
 }
 
 h1 {
+    font-size: 2rem;
+
+    color: var(--headerColor);
+
     margin: 0;
+}
+
+aside li {
+    font-size: 1.5rem;
 }
 
 header {
