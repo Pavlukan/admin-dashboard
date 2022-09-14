@@ -16,6 +16,9 @@ body {
 aside {
     background-color: var(--sidebarColor);
     grid-row: 1 / 3;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr;
 }
 
 header {
