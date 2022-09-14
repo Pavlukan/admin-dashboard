@@ -25,3 +25,8 @@ header {
 main {
     background-color: var(--mainColor);
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
