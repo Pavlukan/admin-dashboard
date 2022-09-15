@@ -130,6 +130,25 @@ span {
     gap: 20px;
 }
 
+.bottom-wrapper .action-buttons button {
+    background-color: var(--sidebarColor);
+    color: var(--headerColor);
+
+    padding: 10px 30px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+.bottom-wrapper .action-buttons button:hover {
+    background-color: #1480b9;
+}
+
 main {
     background-color: var(--mainColor);
 }
