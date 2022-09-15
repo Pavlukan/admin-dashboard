@@ -92,6 +92,10 @@ header {
     box-shadow: 0 0 8px 0.5px var(--sidebarColor);
 }
 
+.user-info {
+    margin-right: 40px;
+}
+
 main {
     background-color: var(--mainColor);
 }
