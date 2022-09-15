@@ -46,9 +46,9 @@ header {
 .top-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
-    gap: 300px;
+    gap: 400px;
 }
 
 .top-wrapper .user-info {
@@ -65,6 +65,7 @@ header {
     border: none;
     border-radius: 50%;
 }
+
 
 main {
     background-color: var(--mainColor);
