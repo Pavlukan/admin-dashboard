@@ -66,6 +66,31 @@ header {
     border-radius: 50%;
 }
 
+.top-wrapper input {
+    background-color: var(--mainColor);
+    
+    appearance: none;
+    outline: none;
+    border: none;
+
+    font-size: 1.02rem;
+    
+    height: 28px;
+    margin: 30px;
+    padding: 8px;
+
+    border-radius: 16px;
+
+    flex: 1 1 0;
+}
+
+.top-wrapper input:hover {
+   border: 1px solid #B8B8B8;
+}
+
+.top-wrapper input:focus {
+    box-shadow: 0 0 8px 0.5px var(--sidebarColor);
+}
 
 main {
     background-color: var(--mainColor);
