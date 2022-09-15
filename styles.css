@@ -32,11 +32,38 @@ h1 {
 
 aside li {
     font-size: 1.5rem;
+
     margin-top: 12px;
 }
 
 header {
     background-color: var(--headerColor);
+
+    display: grid;
+    grid-template-rows: 1fr 1.2fr;
+}
+
+.top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 300px;
+}
+
+.top-wrapper .user-info {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.top-wrapper .user-info img {
+    height: 50px;
+    width: 50px;
+
+    border: none;
+    border-radius: 50%;
 }
 
 main {
