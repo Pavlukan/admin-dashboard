@@ -96,6 +96,40 @@ header {
     margin-right: 40px;
 }
 
+.bottom-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 100px 0 30px;
+}
+
+.bottom-wrapper .welcome-message {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    font-weight: 600;
+}
+
+.bottom-wrapper .welcome-message img {
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+    font-weight: normal; /* remove boldness from alternative text if the icon doesn't load */
+}
+
+span {
+    display: block;
+    font-size: 1.3rem;
+}
+
+.bottom-wrapper .action-buttons {
+    display: flex;
+    gap: 20px;
+}
+
 main {
     background-color: var(--mainColor);
 }
