@@ -165,6 +165,10 @@ main {
     grid-template-columns: 3fr 1fr;
 }
 
+main h3 {
+    margin: 0;
+}
+
 main .projects {
     grid-row: 1 / 3;
 }
