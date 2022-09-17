@@ -205,6 +205,15 @@ main .projects h3 {
     font-weight: 500;
 }
 
+/* I could've used align-self property here, but I would have to use Flexbox anyway to apply gap */
+
+.card .action-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+
+    margin-top: 24px;
+}
 
 main .projects a {
     color: #000000;
