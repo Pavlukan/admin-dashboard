@@ -202,9 +202,11 @@ main .projects h3 {
 
 .card p {
     margin: 0;
+    color: #5A5A5A;
 }
 
 .card .title {
+    color: #000000;
     font-size: 1.05rem;
     font-weight: 500;
 }
@@ -224,7 +226,7 @@ main .projects a {
 }
 
 main .projects a:hover {
-    color:#4b4b4b;
+    color:#4B4B4B;
 }
 
 ul {
