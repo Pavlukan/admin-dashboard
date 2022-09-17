@@ -4,6 +4,10 @@
     --mainColor: #E2E8F0;
 }
 
+img {
+    cursor: pointer;
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -205,8 +209,7 @@ main .projects h3 {
     font-weight: 500;
 }
 
-/* I could've used align-self property here, but I would have to use Flexbox anyway to apply gap */
-
+/* I could've used align-self property here, but I would have to use Flexbox anyway to apply gap, so I chose justify-content */
 .card .action-icons {
     display: flex;
     justify-content: flex-end;
