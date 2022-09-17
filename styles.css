@@ -163,6 +163,7 @@ main {
     
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 24px;
 }
 
 main h3 {
@@ -170,6 +171,7 @@ main h3 {
 }
 
 main .projects {
+
     grid-row: 1 / 3;
 
     display: grid;
