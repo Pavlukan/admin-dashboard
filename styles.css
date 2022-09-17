@@ -184,6 +184,9 @@ main .projects h3 {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+
     background-color: var(--headerColor);
     padding: 18px;
 
