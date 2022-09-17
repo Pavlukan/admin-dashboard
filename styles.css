@@ -52,6 +52,9 @@ header {
 
     display: grid;
     grid-template-rows: 1fr 1.2fr;
+
+    z-index: 100;
+    box-shadow: 0 2px 8px 1px #0000005b;
 }
 
 .top-wrapper {
@@ -184,7 +187,7 @@ main .projects {
 }
 
 main .projects h3 {
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1;
 }
 
 .card {
