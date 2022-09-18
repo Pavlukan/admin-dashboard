@@ -134,7 +134,7 @@ header {
     font-weight: normal; /* remove boldness from alternative text if the icon doesn't load */
 }
 
-span {
+.bottom-wrapper span {
     display: block;
     font-size: 1.3rem;
 }
