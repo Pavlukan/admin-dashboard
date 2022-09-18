@@ -198,7 +198,7 @@ main h3 {
     border-radius: 12px;
 }
 
-.card p, .announcements p {
+.card p, .announcements p{
     color: #5A5A5A;
 
     margin-bottom: 24px;
@@ -261,6 +261,19 @@ main h3 {
     height: 64px;
     width: 64px;
 }
+
+.trending-card {
+    display: flex;
+    align-items: center;
+    
+    gap: 12px;
+}
+
+.trending-card span{
+    display: block;
+    color: #5A5A5A;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
