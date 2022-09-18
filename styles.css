@@ -28,6 +28,17 @@ aside {
     grid-template-rows: 0.4fr 1.6fr 3fr;
 }
 
+.page-title-holder {
+    display: flex;
+    align-items: flex-start;
+}
+
+.page-title-holder span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 h1 {
     font-size: 2rem;
 
@@ -249,6 +260,10 @@ main h3 {
 .announcements .announcement-card:last-child {
     border-bottom: none;
     margin-bottom: 0;
+}
+
+.announcements-section {
+    margin-bottom: 16px;
 }
 
 .trending-section {
