@@ -248,6 +248,11 @@ main .announcements .announcement-card {
     border-bottom: 1px solid #4b4b4b5e;
 }
 
+main .announcements .announcement-card:last-child {
+    border-bottom: none;
+    margin-bottom: none;
+}
+
 .trending-section {
     grid-column: 2 / 3;
 }
