@@ -188,11 +188,11 @@ main h3 {
     flex-direction: column;
 
     background-color: var(--headerColor);
-    padding: 30px;
+    padding: 42px 36px;
 
     box-shadow: 2px 2px 4px 1px #0000005b;
     
-    border-left: 7px solid #999966;
+    border-left: 12px solid #999966;
     border-radius: 12px;
 }
 
@@ -248,7 +248,7 @@ main h3 {
 
 .announcements .announcement-card:last-child {
     border-bottom: none;
-    margin-bottom: none;
+    margin-bottom: 0;
 }
 
 .trending-section {
