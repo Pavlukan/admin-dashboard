@@ -248,6 +248,14 @@ main .announcements .announcement-card {
     border-bottom: 1px solid #4b4b4b5e;
 }
 
+.trending-section {
+    grid-column: 2 / 3;
+}
+
+.trending-section img {
+    height: 64px;
+    width: 64px;
+}
 ul {
     list-style-type: none;
     padding: 0;
